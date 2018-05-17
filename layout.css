@@ -65,10 +65,15 @@
     flex-direction:row;
   }
 
- .contauner{
+ .container{
   display:flex;
   flex-direction:row;
  } 
+
+ .container2{
+  display:flex;
+  flex-direction:row;
+ }
   
   
   #c, #d {
@@ -83,9 +88,11 @@
   #e, #f, #g, #h {
     width: 190px;
     height: 250px;
+    display: inline-block;
   } 
   
   #i{
+    display: flex;
     width: 760px;
     height: 150px;
    
