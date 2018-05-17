@@ -2,3 +2,12 @@
   font-size: 1.5rem;
   
 }
+
+body {
+  width: 968px;
+}
+
+#a, #b, #c, #d, #e, #f, #g, #h, #i{
+  background-color: grey;
+  border: solid 1px black;
+}
