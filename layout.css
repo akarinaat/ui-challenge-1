@@ -4,108 +4,98 @@
 }
 
 #a{
-  background-color: grey;
   width: 480px;
   height: 72px;
-
-  border: solid 1px black;
+  display: inline-block;
+  margin-right: -10px
 }
 
 #b{
-  background-color: grey;
+
   width: 480px;
   height: 150px;
-
   border: solid 1px black;
 }
 
 #c, #d {
-  background-color: grey;
+  
   width: 480px;
   height: 125px;
-  border: solid 1px black;
-  display: inline-block;
-  margin-right: -10px;
+  margin-right: -10px; 
 }
 
 #e, #f, #g, #h {
-  background-color: grey;
   width: 240px;
   height: 250px;
-  border: solid 1px black;
+  
+  
 }
 
-.container{
-  display:flex;
+#four{
+  display: flex;
   flex-wrap: wrap;
 }
 
-.container2{
-  display:flex;
-  justify-content: flex-start;
+.container .container2{
+ flex-direction: row;
+  
 }
 
-#i{
-  background-color: grey;
+
+#i{ 
   width: 480px;
-  height: 80px;
-  border: solid 1px black;
+  height: 80px; 
 }
 
 @media only screen and (min-width: 960px){
 
   #a{
-    background-color: grey;
     width: 960px;
     height: 100px;
-    border: solid 1px black;
   }
   
   #b{
-    background-color: grey;
     width: 200px;
     height: 600px;
-    border: solid 1px black;
+    float: left;
   }
-  
-  .containerb{
-    display: flex;
-    align-items: flex-start;
-  }
-  
-  #c, #d {
-    background-color: grey;
-    width: 380px;
-    height: 200px;
-    border: solid 1px black;
 
-  }
   .containercd{
     display:flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    
+    flex-direction:row;
+  }
+
+ .container{
+  display:flex;
+  flex-direction:row;
+ } 
+
+ .container2{
+  display:flex;
+  flex-direction:row;
+ }
+  
+  
+  #c, #d {
+    width: 380px;
+    height: 200px;
+
+  } 
+  #d{
+    margin-left: 10px;
   }
   
   #e, #f, #g, #h {
-    background-color: grey;
     width: 190px;
     height: 250px;
-    border: solid 1px black;
+    display: inline-block;
   } 
-
-  .container, .container2{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start; 
-    
-  }
   
   #i{
-    background-color: grey;
+    display: flex;
     width: 760px;
     height: 150px;
-    border: solid 1px black;
+   
   }
  
 }
