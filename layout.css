@@ -37,14 +37,10 @@
 }
 
 .container .container2{
-  display: inline;
-  
+ flex-direction: row;
   
 }
 
-/* #g, #h {
-  float:right;
-} */
 
 #i{ 
   width: 480px;
@@ -54,46 +50,45 @@
 @media only screen and (min-width: 960px){
 
   #a{
-    background-color: grey;
     width: 960px;
     height: 100px;
-    border: solid 1px black;
   }
   
   #b{
-    background-color: grey;
     width: 200px;
     height: 600px;
-    border: solid 1px black;
     float: left;
   }
-  
-  #todos{
-    float: right;
-    margin-right: 8px;
+
+  .containercd{
+    display:flex;
+    flex-direction:row;
   }
+
+ .contauner{
+  display:flex;
+  flex-direction:row;
+ } 
+  
   
   #c, #d {
-    background-color: grey;
     width: 380px;
     height: 200px;
-    border: solid 1px black;
-    margin-right: -10px;
 
   } 
+  #d{
+    margin-left: 10px;
+  }
   
   #e, #f, #g, #h {
-    background-color: grey;
     width: 190px;
     height: 250px;
-    border: solid 1px black;
   } 
   
   #i{
-    background-color: grey;
     width: 760px;
     height: 150px;
-    border: solid 1px black;
+   
   }
  
 }
